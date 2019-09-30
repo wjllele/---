@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<view class="img">
+<image src="./images/1.jpg"/>
+</view>
+<view class="tex">
+  <text class="big">王煜翔</text>
+    <view class="inp1">
+    <span>姓名：</span><input type="text" value="王煜翔"/>
+    </view>
+    <view class="inp1">
+    <span>微信：</span><input type="text" value="wyx379180373wei"/>
+    </view>
+    <view class="inp1">
+    <span>QQ：</span><input type="text" value="379180373"/>
+    </view>
+</view>

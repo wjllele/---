@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+.img{width:100%;height: auto}
+.img>image{width: 90%;height: 250px;padding: 0 15px;}
+.tex{width: 250px;height: 150px;background: white;position: fixed;top:190px;left: 45px;border-radius: 5px;border: 1px solid lightgrey;
+}
+.tex>.big{font-size: 22px;margin-left: 15px}
+.inp1{display: flex;justify-content: space-around;padding-top:10px }
+.inp1>input{border: 1px solid lightgray;background: white;}
