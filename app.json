@@ -1,9 +1,33 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/index/index",
+    "pages/details/details",
+    "pages/home/home",
+    "custom-tab-bar/index",
     "pages/logs/logs"
   ],
+    "tabBar": {
+      "custom": true,
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "image/icon_component.png",
+          "selectedIconPath": "image/icon_component_HL.png",
+          "text":"资料"
+        },
+        
+        {
+          "pagePath": "pages/home/home",
+          "iconPath": "image/icon_user0.png",
+          "selectedIconPath": "image/icon_user.png",
+          "text":"我的"
+        }
+      ]
+    },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

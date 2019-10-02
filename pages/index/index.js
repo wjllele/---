@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '个人资料',
+    motto: '绝密资料',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -41,6 +41,16 @@ Page({
           })
         }
       })
+    }
+  },
+  pageLifetimes: {
+    show() {
+      if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 0
+        })
+      }
     }
   },
   getUserInfo: function(e) {
