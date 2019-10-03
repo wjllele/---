@@ -1,2 +1,19 @@
 <!--pages/details/details.wxml-->
-<text>pages/details/details.wxml</text>
+<view class="one">
+  <view class="img">
+  <image src="./image/1.jpg"/>
+  </view>
+  <view class="te">
+   <text class="big">日志版</text>
+   <text>热爱可抵漫长岁月！</text>
+  </view>
+</view>
+<view class="one">
+  <view class="img">
+  <image src="./image/2.jpg"/>
+  </view>
+  <view class="te">
+   <text class="big">记录版</text>
+   <text>执着于理想，纯粹于当下。</text>
+  </view>
+</view>
