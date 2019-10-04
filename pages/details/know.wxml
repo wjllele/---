@@ -1,0 +1,13 @@
+<!--pages/details/know.wxml-->
+<view class="one">
+  <view class="img">
+  <image src="./image/1.jpg"/>
+  </view>
+  <view class="te">
+   <text class="big">日志版</text>
+  </view>
+  <view class="te"><text>热爱可抵漫长岁月！</text></view>
+  <view class="te"><text>夏虫不可语冰，何不食肉糜。</text></view>
+  <view class="te"><text>折扇轻合此书尽，入戏太深君可知？</text></view>
+  <view class="te"><text>.............</text></view>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/details/jilu.wxml-->
+<view class="one">
+  <view class="img">
+  <image src="./image/2.jpg"/>
+  </view>
+  <view class="te">
+   <text class="big">记录版</text>
+  </view>
+  <view class="te"><text>自尊告诉我：“这不可能。”</text></view>
+  <view class="te"><text>经验告诉我：“这有风险。”</text></view>
+  <view class="te"><text>情理告诉我：“这毫无意义。”</text></view>
+  <view class="te"><text>内心却轻声说：“试试看吧。”</text></view>
+  <view class="te"><text>..........................</text></view>
+</view>
+

@@ -1,5 +1,5 @@
 <!--pages/details/details.wxml-->
-<view class="one">
+<view class="one" bindtap="jumpknow">
   <view class="img">
   <image src="./image/1.jpg"/>
   </view>
@@ -8,7 +8,7 @@
    <text>热爱可抵漫长岁月！</text>
   </view>
 </view>
-<view class="one">
+<view class="one" bindtap="jumpjilu">
   <view class="img">
   <image src="./image/2.jpg"/>
   </view>

@@ -1,17 +1,9 @@
 /* pages/home/home.wxss */
 .img{width:100%;height: auto;}
-/* .img>image{width: 100%;height: 300px;} */
 .tex{width: 250px;height: 150px;background: white;position: fixed;top:190px;left: 35px;border-radius: 5px;border: 1px solid lightgrey;}
 .tex>.big{font-size: 22px;margin-left: 15px}
 .inp1{display: flex;justify-content: space-around;padding-top:10px }
 .inp1>input{border: 1px solid lightgray;background: white;}
-
-/* .img>.swiperimg{
-  width: 100%;
-}
-.img>.swiperimg>image{
-  width: 100%; display: block;
-} */
 
 .img>.u-wrp-bnr{
   width: 91%;

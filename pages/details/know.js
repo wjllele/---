@@ -1,27 +1,13 @@
-// pages/home/home.js
+// pages/details/know.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    "bnrUrl": [{
-      "url": "./images/1.jpg"
-    }, {
-        "url": "./images/2.jpg"
-    }]
+
   },
 
-  pageLifetimes: {
-    show() {
-      if (typeof this.getTabBar === 'function' &&
-        this.getTabBar()) {
-        this.getTabBar().setData({
-          selected: 0
-        })
-      }
-    }
-  },
   /**
    * 生命周期函数--监听页面加载
    */

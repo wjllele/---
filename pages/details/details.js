@@ -7,7 +7,16 @@ Page({
   data: {
 
   },
-
+  jumpknow:function(options){
+    wx.navigateTo({
+      url: './know',
+    })
+  },
+  jumpjilu: function (options) {
+    wx.navigateTo({
+      url: './jilu',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

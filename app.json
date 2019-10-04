@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/details/details",
     "pages/home/home",
+    "pages/details/know",
+    "pages/details/jilu",
     "custom-tab-bar/index",
     "pages/logs/logs"
   ],
