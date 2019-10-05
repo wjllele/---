@@ -1,7 +1,14 @@
 <!--pages/details/know.wxml-->
 <view class="one">
   <view class="img">
-  <image src="./image/1.jpg"/>
+  <!-- <image src="./image/1.jpg"/> -->
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:for-index="index">
+    <swiper-item>
+      <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
   </view>
   <view class="te">
    <text class="big">日志版</text>

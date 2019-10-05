@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    "bnrUrl": [{
+      "url": "./image/1.jpg"
+    }, {
+      "url": "./image/2.jpg"
+    }]
   },
 
   /**
