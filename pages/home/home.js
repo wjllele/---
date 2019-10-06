@@ -9,9 +9,52 @@ Page({
       "url": "./images/1.jpg"
     }, {
         "url": "./images/2.jpg"
-    }]
+    }],
+    actionSheetHidden: true,
+    actionSheetItems: [
+      { bindtap: 'Menu1', txt: '15635976355' },
+      { bindtap: 'Menu2', txt: '呼叫' },
+    ],
+    menu: '',
   },
-
+  actionSheetTap: function () {
+    this.setData({
+      actionSheetHidden: !this.data.actionSheetHidden
+    })
+  },
+  actionSheetbindchange: function () {
+    this.setData({
+      actionSheetHidden: !this.data.actionSheetHidden
+    })
+  },
+  bindMenu1: function () {
+    this.setData({
+      menu: 1,
+      actionSheetHidden: !this.data.actionSheetHidden
+    })
+  },
+  bindMenu2: function () {
+    this.setData({
+      menu: 2,
+      actionSheetHidden: !this.data.actionSheetHidden
+    })
+  },
+  textPaste() {
+    wx.showToast({
+      title: '复制成功',
+    })
+    wx.setClipboardData({
+      data: '点击复制的内容',
+      success: function (res) {
+        wx.getClipboardData({
+          // 这个api是把拿到的数据放到电脑系统中的
+          success: function (res) {
+            console.log(res.data) // data
+          }
+        })
+      }
+    })
+  },
   pageLifetimes: {
     show() {
       if (typeof this.getTabBar === 'function' &&

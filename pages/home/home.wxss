@@ -1,10 +1,10 @@
 /* pages/home/home.wxss */
 .img{width:100%;height: auto;}
-.tex{width: 250px;height: 150px;background: white;position: fixed;top:190px;left: 35px;border-radius: 5px;border: 1px solid lightgrey;}
-.tex>.big{font-size: 22px;margin-left: 15px}
-.inp1{display: flex;justify-content: space-around;padding-top:10px }
-.inp1>input{border: 1px solid lightgray;background: white;}
-
+.tex{width: 270px;height: 150px;background: white;position: fixed;top:190px;left: 35px;border-radius: 5px;border: 1px solid lightgrey;}
+.tex>.big{font-size: 40rpx;margin-left: 15px}
+.inp1{display: flex;justify-content: space-around;padding-top:10px;font-size: 30rpx; padding-left: 20rpx}
+.inp1>input{border: 1px solid lightgray;background: #ffffff;font-size: 30rpx;width: 140px;}
+.tex>.inp1>button{width: 120rpx;height: 50rpx;font-size: 25rpx;text-align: center;}
 .img>.u-wrp-bnr{
   width: 91%;
   height: 230px;

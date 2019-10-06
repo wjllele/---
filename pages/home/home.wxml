@@ -11,12 +11,19 @@
 <view class="tex">
   <text class="big">王煜翔</text>
     <view class="inp1">
-    <span>姓名：</span><input type="text" value="王煜翔"/>
+    <span>姓名：</span><input type="text" value="王煜翔"/><button type="default" bindtap="actionSheetTap">呼叫</button>
+        <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+<block wx:for-items="{{actionSheetItems}}">
+<action-sheet-item bindtap="bind{{item.bindtap}}">{{item.txt}}</action-sheet-item>
+</block>
+<action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet>
     </view>
     <view class="inp1">
-    <span>微信：</span><input type="text" value="wyx379180373wei"/>
+    <span>微信：</span><input type="text" value="wyx379180373wei"/><button bindtap='textPaste'>复制</button>
+
     </view>
     <view class="inp1">
-    <span>QQ：</span><input type="text" value="379180373"/>
+    <span>Q Q：</span><input type="text" value="379180373"/><button bindtap='textPaste'>复制</button>
     </view>
 </view>
